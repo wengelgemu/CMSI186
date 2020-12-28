@@ -18,29 +18,14 @@
             } else {
                 System.out.println(estimate(darts));
             }
-            //
-            // TODO: Parse the command line argument and call your estimate function
-            //
         } catch (NumberFormatException e) {
             System.err.print("Argument must be an integer");
-            //
-            // TODO: Take care of a possible non-integer argument.
-            //
         } catch (IllegalArgumentException e) {
             System.err.print(e.getMessage());
-            // System.err.print("Exactly one arg required");
-            //
-            // TODO: Take care of the exception you threw above.
-            //
         }
     }
 
     public static double estimate(int darts) {
-        //
-        // TODO: Do the main work here. I've just returned 0.0 as a place holder
-        // so the code compiles. It isn't right though. Remove the return here and
-        // implement the whole method on your own.
-        //
         if (darts < 1) {
             throw new IllegalArgumentException("At least one dart required");
         }
