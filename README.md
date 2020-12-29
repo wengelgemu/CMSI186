@@ -12,3 +12,5 @@ Lab 4: A Java program that simulates a soccer game
 Lab 5: A Java program that simulates a skate ramp using sine curves and calculated the area under the ramp
 
 Lab 6: Writing algorithims to perform basic arithmetic on the aribitrarily large integer values of the class BigInteger. Methods performed using java manipulate arrays of digits to solve for the velocity of travelling to Neptune.
+
+Lab 7: Maze solver program using Java that simulates and completes a mouse and cheese maze game.
